@@ -27,5 +27,7 @@ fs.unlink(delete_file,(err)=>{
 
     if(!err){
         console.log('File deleted successfully');
+    }else{
+        console.log("File not founded.Or It's Already deleted.");
     }
 });
