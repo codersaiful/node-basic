@@ -20,10 +20,10 @@ fs.writeFile(write_file,text + 'Using writeFile() method.\n',(err)=>{
     console.log("File Written");
 })
 
-let delete_file = './file/delete.txt';
+let delete_file = './file/delete-2.txt';//File name will be delete.txt
 //Deleting file using unlink() method of fs
 fs.unlink(delete_file,(err)=>{
-    console.log(err);
+    //console.log(err);
 
     if(!err){
         console.log('File deleted successfully');
@@ -31,3 +31,12 @@ fs.unlink(delete_file,(err)=>{
         console.log("File not founded.Or It's Already deleted.");
     }
 });
+
+//rename - rename any file name 
+let rename = './file/rename.txt';//If already rename, please keep rename.txt before trigger
+let rename_newname = './file/rename-new.txt';
+fs.rename(rename,rename_newname,(err)=>{
+    if(!err){
+        console.log("Successfully Renamed");
+    }
+})

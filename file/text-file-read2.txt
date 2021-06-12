@@ -20,3 +20,6 @@ Create a new file using the appendFile() method:
 method appends specified content to a file. If the file does not exist, the file will be created:
 HHHHHHHHHHHHHHHHHHHHHHHHHH
 Create a new file using the appendFile() method:
+method appends specified content to a file. If the file does not exist, the file will be created:
+HHHHHHHHHHHHHHHHHHHHHHHHHH
+Create a new file using the appendFile() method:
