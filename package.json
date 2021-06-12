@@ -1,0 +1,25 @@
+{
+  "name": "node-basic",
+  "homepage": "https://codersaiful.github.io/node-basic",
+  "version": "1.0.1",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^3.2.0",
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
